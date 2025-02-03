@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot do WhatsApp usando whatsapp-web.js",
+  "main": "chatbot.js",
+  "scripts": {
+    "start": "node chatbot.js"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.45",
+    "puppeteer": "^24.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
